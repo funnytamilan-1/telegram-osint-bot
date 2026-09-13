@@ -40,7 +40,7 @@ GROUP_USERNAME = "zoraxgc"
 
 # Load env
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8797968773:AAE6Swb9stp2aghkSuH9mpKEhs8jdcXQD2A")
 
 # API
 API_ADV = "https://yash-code-with-ai.alphamovies.workers.dev/?num={}&key=7189814021"
